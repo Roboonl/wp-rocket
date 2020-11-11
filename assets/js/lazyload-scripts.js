@@ -96,8 +96,8 @@ class RocketLazyLoadScripts {
 			[
 				'keydown',
 				'mouseover',
-				'touchmove',
-				'touchstart'
+				'touchmove touchend',
+				'touchstart touchend'
 			],
 			browser
 		);
